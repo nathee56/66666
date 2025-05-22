@@ -1,0 +1,54 @@
+body {
+  font-family: 'Prompt', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.civilization {
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #ffffffbb;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #003366;
+  color: white;
+}
